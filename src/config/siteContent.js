@@ -28,28 +28,28 @@ export const SITE_CONFIG = {
     items: [
       {
         id: 1,
-        image: "/assets/slider3.png",
+        image: "/assets/img1.png",
         title: "Royal Heritage",
         backgroundText: "PREMIUM",
         description: "Handcrafted elegance meets traditional festivities"
       },
       {
         id: 2,
-        image: "/assets/slider1.png",
+        image: "/assets/img4.png",
         title: "Corporate Elite",
         backgroundText: "LUXURY",
         description: "Professional gifting with sophisticated presentation"
       },
       {
         id: 3,
-        image: "/assets/compressed.png",
+        image: "/assets/img9.png",
         title: "Golden Traditions",
         backgroundText: "EXCLUSIVE",
         description: "Time-honored traditions in contemporary packaging"
       },
       {
         id: 4,
-        image: "/assets/slider4.png",
+        image: "/assets/img13.png",
         title: "Artisan Select",
         backgroundText: "CURATED",
         description: "Meticulously selected premium offerings"
@@ -61,7 +61,7 @@ export const SITE_CONFIG = {
   luxuryGifting: {
     title: "Redefining Luxury Gifting",
     description: "We curate extraordinary Diwali experiences through meticulously crafted gift collections. Each hamper represents our unwavering commitment to excellence, seamlessly blending timeless traditions with contemporary sophistication to create moments that resonate long after the celebration ends.",
-    decorativeImage: "https://images.pexels.com/photos/7686118/pexels-photo-7686118.jpeg"
+    decorativeImage: "/assets/img14.png"
   },
 
   // ⭐ DIFFERENTIATORS - Key unique selling points
@@ -76,7 +76,7 @@ export const SITE_CONFIG = {
       {
         icon: "👑",
         title: "Curated Excellence", 
-        description: "Each item meticulously selected by our expert team for unmatched quality"
+        description: "Each item meticulously selected by our expert team for premium quality"
       },
       {
         icon: "🎨",
@@ -94,40 +94,40 @@ export const SITE_CONFIG = {
       // Row 1
       {
         id: 1,
-        image: "/assets/slider3.png",
-        title: "Traditional Thali Collection",
-        description: "Complete festive experience with traditional elements and premium sweets"
+        image: "/assets/img6.png",
+        title: "Family Celebration",
+        description: "Perfect hampers designed for memorable family moments"
       },
       {
         id: 2,
-        image: "/assets/slider3.png",
+        image: "/assets/img4.png",
         title: "Artisan Delights",
         description: "Handpicked artisanal treats and decorative items for refined tastes"
       },
       {
         id: 3,
-        image: "/assets/slider3.png",
+        image: "/assets/img5.png",
         title: "Corporate Elegance",
         description: "Professional presentation perfect for business relationships"
       },
       // Row 2
       {
         id: 4,
-        image: "/assets/slider3.png",
+        image: "/assets/img1.png",
         title: "Premium Heritage",
         description: "Luxurious selection celebrating India's rich festival traditions"
       },
       {
         id: 5,
-        image: "/assets/slider3.png",
+        image: "/assets/img7.png",
         title: "Divine Illumination",
         description: "Beautiful diyas and candles to light up the festivities"
       },
       {
         id: 6,
-        image: "/assets/slider3.png",
-        title: "Family Celebration",
-        description: "Perfect hampers designed for memorable family moments"
+        image: "/assets/img9.png",
+        title: "Personalized Hamper",
+        description: "Get the Customized Hamper as per your requirement"
       }
     ]
   },
@@ -183,24 +183,3 @@ export const DESIGN_CONFIG = {
     caption: 'text-sm text-opacity-80'
   }
 };
-
-/* 
-📝 HOW TO EDIT THIS FILE:
-
-1. CHANGE COLORS: Modify the hex codes in the 'colors' object
-2. UPDATE TEXT: Edit titles, descriptions in each section
-3. REPLACE IMAGES: Change the image URLs (keep the same format)
-4. ADD/REMOVE PRODUCTS: Modify the 'products' array in collections
-5. UPDATE CONTACT: Change name, phone number in contact section
-
-💡 TIPS:
-- Keep image URLs in the same format for consistency
-- Test color changes by modifying just one hex code first
-- Maintain the same text length for better layout
-- Use high-quality images (1200px+ width recommended)
-
-🚀 AFTER EDITING:
-1. Save this file
-2. Run 'npm run build' to create production files
-3. Upload to Google Sites
-*/
