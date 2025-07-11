@@ -159,18 +159,18 @@ const LuxuryGiftingSection = () => {
                   </motion.div>
                 </div>
 
-                <div
+                {/* <div
                   className="absolute -top-6 -left-6 w-24 h-24 rounded-full opacity-60"
                   style={{
                     background: `radial-gradient(circle, ${colors.primary} 0%, transparent 70%)`
                   }}
-                />
-                <div
+                /> */}
+                {/* <div
                   className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full opacity-40"
                   style={{
                     background: `radial-gradient(circle, ${colors.cream} 0%, transparent 70%)`
                   }}
-                />
+                /> */}
               </div>
             </motion.div>
           </div>
