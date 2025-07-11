@@ -352,3 +352,12 @@ img {
   transition-duration: 100ms;
 }
 
+/* Custom focus state: Show outline only when using the keyboard (tabbing)
+*:focus-visible {
+  outline: 2px solid #FFD700;
+  outline-offset: 2px;
+}
+*:focus:not(:focus-visible) {
+  outline: none;
+} */
+
